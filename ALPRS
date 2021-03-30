@@ -1,8 +1,3 @@
-# test_camera.py
-#
-# Open an RTSP stream and feed image frames to 'openalpr'
-# for real-time license plate recognition.
-
 import numpy as np
 import cv2
 from openalpr import Alpr
