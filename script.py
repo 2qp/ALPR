@@ -71,10 +71,10 @@ def main():
 
             	if list_of_lists == allowed:
                  	print (True)
-			        arduino = serial.Serial('/dev/ttyACM0', 9600)
-			        command = str(85)
-			        arduino.write(command)  
-			        reachedPos = str(arduino.readline())
+			arduino = serial.Serial('/dev/ttyACM0', 9600)
+			command = str(85)
+			arduino.write(command)  
+			reachedPos = str(arduino.readline())
 
 	        else:
         	        print (False)
