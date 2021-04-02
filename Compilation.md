@@ -1,6 +1,7 @@
 //by yuxcat
 
-prequices
+
+prerequisites
 ```sh
 sudo apt-get update
 sudo apt-get upgrade ( proceed with caution : | upgrade all ur packages if the kernal fresh)
