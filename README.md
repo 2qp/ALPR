@@ -1,6 +1,7 @@
 Real time number plate detection using openalpr
 - opening a gate using arduino uno and python
 
+- Debian 10 Buster Support
 
 ---------------------------------------------------
 OPENALPR Compiling Instructions
