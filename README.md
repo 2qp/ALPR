@@ -100,6 +100,9 @@ sudo ldconfig
 //gitclone openalpr
 ```sh
 cd /usr/local/src/openalpr/
+
+git clone https://github.com/openalpr/openalpr.git
+
 ```
 nano CMakeLists.txt
 
