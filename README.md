@@ -74,6 +74,11 @@ sudo make install
 
 //leptonica
 ```sh
+sudo apt-get install libopenjp2-7
+sudo apt-get install libopenjp2-7-dev
+sudo apt-get install libopenjp2-tools
+
+
 wget http://www.leptonica.org/source/leptonica-1.80.0.tar.gz
 tar xf /usr/local/src/openalpr/leptonica-1.80.0.tar.gz
 
