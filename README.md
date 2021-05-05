@@ -75,6 +75,7 @@ sudo make install
 //leptonica
 ```sh
 wget http://www.leptonica.org/source/leptonica-1.80.0.tar.gz
+tar xf /usr/local/src/openalpr/leptonica-1.80.0.tar.gz
 
 cd /usr/local/src/openalpr/leptonica-1.80/
 chmod +x configure
