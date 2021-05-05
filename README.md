@@ -31,15 +31,45 @@ sudo apt-get install --assume-yes git-core
 sudo apt-get install --assume-yes cmake
 ```
 
-------------------------------------------------
-//OpenCV
-
-//OCV Dependencies
 ```sh
+#OpenALPR
+
+sudo apt-get install -y default-jdk
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install liblog4cplus-dev
+sudo apt-get install liblog4cplus-1.1-9
+sudo apt-get install libjna-jni
+
+sudo apt install libcanberra-gtk-module
+```
+
+```sh
+#Leptonica
+
+sudo apt-get install libopenjp2-7
+sudo apt-get install libopenjp2-7-dev
+sudo apt-get install libopenjp2-tools
+```
+
+```sh
+#OCV
+
 sudo apt-get install build-essential
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
 sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev
+
+sudo apt-get install gtk+3.0
+sudo apt-get install libgtk-3-dev
+sudo apt-get install libgtkglext1
+sudo apt-get install libgtkglext1-dev
+sudo apt-get install libavresample-dev
+sudo apt-get install libgstreamer-plugins-base1.0-dev
 ```
+
+------------------------------------------------
+//OpenCV
+
+
 ```sh
 wget http://security.debian.org/debian-security/pool/updates/main/j/jasper/libjasper1_1.900.1-debian1-2.4+deb8u6_amd64.deb
 sudo apt-get install libjasper1_1.900.1-debian1-2.4+deb8u6_amd64.deb
@@ -49,12 +79,7 @@ sudo apt-get install libjasper1_1.900.1-debian1-2.4+deb8u6_amd64.deb
 ```sh
 git clone https://github.com/opencv/opencv.git
 
-sudo apt-get install gtk+3.0
-sudo apt-get install libgtk-3-dev
-sudo apt-get install libgtkglext1
-sudo apt-get install libgtkglext1-dev
-sudo apt-get install libavresample-dev
-sudo apt-get install libgstreamer-plugins-base1.0-dev
+
 ```
  
 
@@ -74,9 +99,7 @@ sudo make install
 
 //leptonica
 ```sh
-sudo apt-get install libopenjp2-7
-sudo apt-get install libopenjp2-7-dev
-sudo apt-get install libopenjp2-tools
+
 
 
 wget http://www.leptonica.org/source/leptonica-1.80.0.tar.gz
@@ -120,14 +143,7 @@ add these lines
 SET(OpenCV_DIR "/usr/local/lib")
 SET(Tesseract_DIR "/usr/local/src/openalpr/tesseract-ocr")
 ```
-//reqs
-```sh
-sudo apt-get install -y default-jdk
-sudo apt-get install libcurl4-openssl-dev
-sudo apt-get install liblog4cplus-dev
-sudo apt-get install liblog4cplus-1.1-9
-sudo apt-get install libjna-jni
-```
+
 ```sh
 cmake ./
 make
@@ -138,7 +154,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt autoremove
 
-sudo apt install libcanberra-gtk-module
+
 ```
 --caution------only run this if u get libopenalpr.so.2 errors -----
 sudo apt-get install libopenalpr-dev
