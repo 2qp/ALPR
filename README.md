@@ -50,7 +50,7 @@ sudo apt-get install libjasper1_1.900.1-debian1-2.4+deb8u6_amd64.deb
 git clone https://github.com/opencv/opencv.git
 
 sudo apt-get install gtk+3.0
-sudo apt-get install libgtkglext1-dev
+sudo apt-get install gtkglext
 sudo apt-get install libavresample-dev
 sudo apt-get install libgstreamer-plugins-base1.0-dev
 ```
