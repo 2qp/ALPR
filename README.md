@@ -135,6 +135,8 @@ cd /usr/local/src/openalpr/
 
 git clone https://github.com/openalpr/openalpr.git
 
+cd openalpr/src
+
 ```
 nano CMakeLists.txt
 
