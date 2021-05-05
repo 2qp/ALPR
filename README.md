@@ -89,6 +89,10 @@ sudo apt-get install libjasper1_1.900.1-debian1-2.4+deb8u6_amd64.deb
 ```sh
 git clone https://github.com/opencv/opencv.git
 
+#Current Versions :
+
+#Release 106
+#OpenCV 4.5.2
 
 ```
  
