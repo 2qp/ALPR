@@ -166,7 +166,7 @@ make
 sudo make install
 ```
 ```sh
-#Optional / Caution
+#Required
 
 sudo apt-get update
 sudo apt-get upgrade
