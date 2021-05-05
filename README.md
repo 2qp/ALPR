@@ -152,6 +152,8 @@ make
 sudo make install
 ```
 ```sh
+#Optional / Caution
+
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt autoremove
