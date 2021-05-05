@@ -133,12 +133,21 @@ cd /usr/local/src/openalpr
 wget https://github.com/tesseract-ocr/tesseract/archive/3.04.00.tar.gz
 mv tesseract to tesseract-ocr
 
+
+
 ./autogen.sh
 chmod +x configure
 ./configure
 make
 sudo make install
 sudo ldconfig
+
+
+#Adding Languages
+
+cd /usr/local/share/tessdata
+wget https://github.com/tesseract-ocr/tessdata/raw/master/eng.traineddata
+
 ```
 ----------------------------------------------
 ----------------------------------------------
