@@ -4,6 +4,7 @@ Real time number plate detection using openalpr
 - Debian 10 Buster Support
 
 - some packages may not required. but in my process of compiling opencv, openalpr packages, i faced so many source compiling interruptions. so i included all solutions here to run a smooth compilation without a single error.
+- Forked from  : https://gist.github.com/jkjung-avt/790a1410b91c170187f8dbdb8cc698c8
 - PS : still learning
 
 ---------------------------------------------------
